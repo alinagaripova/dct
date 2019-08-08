@@ -1,5 +1,5 @@
 import React from "react"
-import { graphql} from "gatsby"
+import { graphql, Link} from "gatsby"
 import Header from "../components/header"
 import Breadcumb from "../components/breadcrumb"
 import Footer from "../components/footer"
@@ -23,7 +23,7 @@ export default ({data}) => {
             <h1>Список форм:</h1>
             <ul className="list-group list-group-flush">
                 {data.list.dctSchemasInfo.map((schema, i) =>
-                    <a key={i} href={schema.path}><li className="list-group-item">{schema.name}</li></a>
+                    <Link key={i} to={schema.path}><li className="list-group-item">{schema.name}</li></Link>
                 )}
             </ul>
         </div>
