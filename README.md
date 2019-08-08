@@ -1,1 +1,1 @@
- [PROJECT](https://www.gatsbyjs.org/docs/gatsby-starters/)
+ [PROJECT](https://alinagaripova.github.io/dct)
