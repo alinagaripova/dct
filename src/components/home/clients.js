@@ -18,11 +18,11 @@ export default () => (
                 </div>
                 <div className="col-12">
                     <div className="clients-logo-area d-sm-flex align-items-center justify-content-between">
-                        <Link to="https://www.pixar.com/"><img src={clients1} alt="clients"/></Link>
-                        <Link to="https://uslugi.headmade.pro/"><img src={uslugi} alt="clients"/></Link>
-                        <Link to="http://headmade.pro/"><img src={headmade} alt="clients"/></Link>
-                        <Link to="http://headmade.pro/"><img src={hm} alt="clients  "/></Link>
-                        <Link to="https://www.pixar.com/"><img src={clients2} alt="clients"/></Link>
+                        <a href="https://www.pixar.com" target="_blank"><img src={clients1} alt="clients"/></a>
+                        <a href="https://uslugi.headmade.pro" target="_blank"><img src={uslugi} alt="clients"/></a>
+                        <a href="http://headmade.pro" target="_blank"><img src={headmade} alt="clients"/></a>
+                        <a href="http://headmade.pro" target="_blank"><img src={hm} alt="clients  "/></a>
+                        <a href="https://www.pixar.com" target="_blank"><img src={clients2} alt="clients"/></a>
                     </div>
                 </div>
             </div>
