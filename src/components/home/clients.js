@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 import clients1 from '../../images/clients-img/1.png'
 import clients2 from '../../images/clients-img/2.png'
 import uslugi from '../../images/clients-img/uslugi.png'
@@ -17,11 +18,11 @@ export default () => (
                 </div>
                 <div className="col-12">
                     <div className="clients-logo-area d-sm-flex align-items-center justify-content-between">
-                        <a href="/"><img src={clients1} alt="clients"/></a>
-                        <a href="/"><img src={uslugi} alt="clients"/></a>
-                        <a href="/"><img src={headmade} alt="clients"/></a>
-                        <a href="/"><img src={hm} alt="clients  "/></a>
-                        <a href="/"><img src={clients2} alt="clients"/></a>
+                        <Link to="https://www.pixar.com/"><img src={clients1} alt="clients"/></Link>
+                        <Link to="https://uslugi.headmade.pro/"><img src={uslugi} alt="clients"/></Link>
+                        <Link to="http://headmade.pro/"><img src={headmade} alt="clients"/></Link>
+                        <Link to="http://headmade.pro/"><img src={hm} alt="clients  "/></Link>
+                        <Link to="https://www.pixar.com/"><img src={clients2} alt="clients"/></Link>
                     </div>
                 </div>
             </div>

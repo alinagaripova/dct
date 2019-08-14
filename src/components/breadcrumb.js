@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "gatsby"
 import breadcumb from '../images/core-img/breadcumb.png'
 
 export default (props) => (
@@ -10,7 +11,7 @@ export default (props) => (
                         <h2>{props.title}</h2>
                         <nav aria-label="breadcrumb">
                             <ol className="breadcrumb">
-                                <li className="breadcrumb-item"><a href="/">Главная</a></li>
+                                <li className="breadcrumb-item"><Link to="/">Главная</Link></li>
                                 <li className="breadcrumb-item active" aria-current="page">{props.action}</li>
                             </ol>
                         </nav>
