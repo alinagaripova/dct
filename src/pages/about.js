@@ -1,4 +1,4 @@
-import React from "react"
+import React, { Fragment }  from "react"
 import Header from "../components/header"
 import Footer from "../components/footer"
 import Breadcrumb from "../components/breadcrumb"
@@ -8,12 +8,12 @@ import Team from "../components/about/team"
 
 
 export default () => (
-    <div>
+    <Fragment>
         <Header/>
         <Breadcrumb title="О нас" action="Прочитай нашу историю"/>
         <AboutUs/>
         <FunFacts/>
         <Team/>
         <Footer/>
-    </div>
+    </Fragment>
 )

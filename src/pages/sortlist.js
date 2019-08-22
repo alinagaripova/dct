@@ -1,4 +1,4 @@
-import React from "react"
+import React, { Fragment } from "react"
 import { Link } from "gatsby"
 import Header from "../components/header"
 import Breadcumb from "../components/breadcrumb"
@@ -8,7 +8,7 @@ import edit from '../images/core-img/edit.png'
 
 export default () => {
     return(
-        <div>
+        <Fragment>
             <Header/>
             <Breadcumb title="Формы" action="Выбери форму"/>
             <section className="mosh--services-area section_padding_100">
@@ -51,5 +51,5 @@ export default () => {
                 </div>
             </section>
             <Footer/>
-        </div>
+        </Fragment>
     )}

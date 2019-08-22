@@ -1,4 +1,4 @@
-import React from "react"
+import React, { Fragment }  from "react"
 import Header from "../components/header"
 import Footer from "../components/footer"
 import Breadcumb from "../components/breadcrumb"
@@ -8,7 +8,7 @@ import message from '../images/core-img/message.png'
 
 
 export default () => (
-    <div>
+    <Fragment>
         <Header/>
         <Breadcumb title="Контакты" action="Свяжитесь с нами"/>
         <section className="contact-area section_padding_100">
@@ -63,5 +63,5 @@ export default () => (
             </div>
         </section>
         <Footer/>
-    </div>
+    </Fragment>
 )

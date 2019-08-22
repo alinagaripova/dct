@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React, { useState , Fragment } from "react"
 import { graphql } from "gatsby"
 import Form from "react-jsonschema-form";
 import Header from "../components/header"
@@ -43,7 +43,7 @@ export default ({data}) => {
     }
     if(download){
     return (
-        <div>
+        <Fragment>
             <Header/>
             <Breadcumb title="Формы" action="Выбери форму"/>
                 <div className="container">
@@ -52,10 +52,10 @@ export default ({data}) => {
                 </div>
             </div>
             <Footer/>
-        </div>
+        </Fragment>
     )} else {
         return (
-            <div>
+            <Fragment>
                 <Header/>
                 <Breadcumb title="Формы" action="Выбери форму"/>
                 <div className="container">
@@ -69,7 +69,7 @@ export default ({data}) => {
                     </div>
                 </div>
                 <Footer/>
-            </div>
+            </Fragment>
         )
 
     }

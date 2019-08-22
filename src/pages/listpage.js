@@ -1,4 +1,4 @@
-import React from "react"
+import React, { Fragment } from "react"
 import { graphql, Link} from "gatsby"
 import Header from "../components/header"
 import Breadcumb from "../components/breadcrumb"
@@ -16,7 +16,7 @@ export const query = graphql`
 `;
 export default ({data}) => {
     return(
-    <div>
+    <Fragment>
         <Header/>
         <Breadcumb title="Формы" action="Выбери форму"/>
         <div>
@@ -28,5 +28,5 @@ export default ({data}) => {
             </ul>
         </div>
         <Footer/>
-    </div>
+    </Fragment>
 )}

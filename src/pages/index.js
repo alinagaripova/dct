@@ -1,4 +1,4 @@
-import React from "react"
+import React, { Fragment } from "react"
 import Header from "../components/header"
 import Footer from "../components/footer"
 import Carousel from "../components/home/carousel"
@@ -8,12 +8,12 @@ import Feedback from "../components/home/feedback"
 
 
 export default () => (
-    <div>
+    <Fragment>
         <Header/>
         <Carousel/>
         <Clients/>
         <Description/>
         <Feedback/>
         <Footer/>
-    </div>
+    </Fragment>
 )
