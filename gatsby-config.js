@@ -1,7 +1,7 @@
 module.exports = {
     pathPrefix: "/dct",
     siteMetadata: {
-        title: `Gatsby`,
+        title: `Genesis`,
     },
     plugins: [
         {
